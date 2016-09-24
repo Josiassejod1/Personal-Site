@@ -1,0 +1,248 @@
+body{
+  background-color: black;
+}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  p{
+    font-size:30px;
+  }
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+p{
+    font-size:20px;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+p{
+    font-size:20px;
+  }
+  
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+p{
+    font-size: 20px;
+  };
+  
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+p{
+    font-size:15px;
+  }
+  
+}
+
+.social-pics{
+  border: 1px solid black;
+}
+.skillT{
+  margin-top: 0;
+}
+#skills{
+  width:100px;
+  height:100px;
+  
+}
+.bounce{
+  
+
+  width: 250px;
+  height: 250px;
+  	-webkit-transition: margin 0.4s ease-out;
+    -moz-transition: margin 0.4s ease-out;
+    -o-transition: margin 0.4s ease-out;
+    
+}
+
+.bounce:hover{
+  opacity: 0.9;
+  cursor: pointer;
+  margin-top: 15px;
+  color: red;
+  
+
+  
+}
+
+.alternateTxt{
+  color:white;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+ h1, h2, h3, h4, h5 , h6, p, a, article{
+   /*font-family: 'Just Another Hand', cursive;*/
+   font-family: 'Halant', serif;
+ }
+ p{
+    
+}
+
+a{
+   /* font-family: 'Just Another Hand', cursive;*/
+   font-family: 'Halant', serif;
+    font-size: 35px;
+}
+
+/*
+ *Code for the form fields
+ */
+
+/*Spacing for the block format of the grid
+ */
+label{
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  color:white;
+  font-size: 20px;
+  background-color: #3a3a3a;
+  border-radius: 5px;
+  border: 1px solid white;
+  
+
+  
+
+  
+}
+
+#submit:hover{
+  opacity: .9;
+  cursor:pointer;
+  
+}
+#submit{
+  border-radius: 5px;
+background-color:   #3a3a3a;
+  border: 1px solid black;
+}
+
+
+/*Center the form with in the page*/
+
+form{
+  margin:0 auto;
+  width:  459px;
+  border-radius: 10px;
+  
+}
+
+/*Style the text box*/
+
+input, textarea{
+  width: 439px;
+  height: 27px;
+  background: #efefef;
+  border:  1px solid #dedede;
+  padding: 10px;
+  margin-top: 3px;
+  font-size: 0.9em;
+  color: #3a3a3a;
+   -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+textarea{
+  height: 213px;
+  
+  /*
+   *Insert a background
+   */
+}
+ .sect{
+   height:100%;
+   background-color: black;
+   background-attachment: fixed;
+   background-size: cover;
+   width: 100%;
+   
+  
+ }
+ 
+ /* give the element a border when selected
+  */
+ input: focus, textarea:focus{
+  border: 1px solid #97d6eb;
+ }
+ 
+ .subSection{
+   height:50%;
+   background-color: white;
+ }
+ 
+ h1, h2, h3, h4, h5, h6, p{
+   margin-bottom: 20px;
+ }
+ 
+ *{
+   margin: 0;
+ }
+ 
+ html, body{
+   height: 100%;
+
+ }
+
+
+table{
+  margin-top:515px;
+   
+}
+ .sectOne{
+   background-image: url("home.jpg");
+   background-size:cover;
+ }
+ 
+ .sectTwo{
+   background-image: url("contact.jpg");
+   background-size:cover;
+   
+   
+ }
+ 
+ body{
+ overflow-x: hidden;
+ }
+ 
+ #homeDescription{
+   position: absolute;
+  padding-top: 460px;
+  color:white;
+ }
+ 
+ 
+ footer{
+    text-align:center;
+  
+   
+}
+footer p{
+   color:white;
+   font-size: 15px;
+}
+
+
+
+.social-pics{
+   
+   width:50px;
+   height:50px;
+   border-radius: 15px;
+   
+}
+
+body { 
+  padding: 0 0 0 0;
+}
