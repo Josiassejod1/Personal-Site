@@ -165,15 +165,43 @@
 	<div id = "resumeSection" class = "subSection">
 		<h1>Resume</h1>
 		<div class="container" >
-		<a href="https://drive.google.com/a/montclair.edu/file/d/0Byz0vqDx_9HGLWNpeEpwX3JScjA/view?usp=sharing">
+		<a target="_blank" href="https://drive.google.com/a/montclair.edu/file/d/0Byz0vqDx_9HGLWNpeEpwX3JScjA/view?usp=sharing">
 		<img src="drive.png" class="bounce center-block img-responsive">
 		</a>
 		</div>
 	</div>
 
 	<script src="js/bootstrap.min.js"></script>
-	 <script src="https://github.com/Josiassejod1/Personal-Site/blob/gh-pages/script.js"></script>
+	<script>
+		$(document).ready(function(){
+    
+    setBindings();
+    
+    
+    
+    
+    
+});
 
+function setBindings() {
+    $("nav a").click(function(e){
+        e.preventDefault();
+        var sectionID = e.currentTarget.id + "Section";
+       // alert("button id " + e.currentTarget.id);
+       
+       $("html body").animate({
+            
+            scrollTop: $("#" + sectionID).offset().top
+        
+        }, 1000)
+        
+        
+        
+        })
+    
+}
+        
+	</script>
 </body>
 
 
